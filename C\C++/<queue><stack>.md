@@ -6,10 +6,10 @@ C++ STL(Standard Template Library)에는 기본적인 자료구조를 제공하�
 그 중에서 `<queue>`와 `<stack>`은 FIFO(선입선출), LIFO(후입선출) 구조를 각각 제공하는 큐와 스택을 구현하는 데 사용된다.  
 이들은 내부적으로 `deque` 또는 `list` 등의 컨테이너를 기반으로 동작하며, 인터페이스만 간소화되어 있다.
 
----
+<hr>
 
 ### `<stack>` 헤더
-
+ 
 `<stack>`은 LIFO(Last-In First-Out) 구조를 제공하는 자료구조이다.
 
 #### 주요 멤버 함수
@@ -29,7 +29,7 @@ C++ STL(Standard Template Library)에는 기본적인 자료구조를 제공하�
 #include <stack>
 
 int main() {
-    std::stack<int> st;
+    std::stack<int> st; 
     st.push(1);
     st.push(2);
     st.push(3);
